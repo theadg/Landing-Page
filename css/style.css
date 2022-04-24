@@ -106,13 +106,13 @@ section.p{
     flex-direction: column;
  justify-content: center;
     align-items: center;  
-    height: 75vh;
+    height: 70vh;
     gap: 5em;
 }
 
 .item-container{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     border:  3px  solid #3882f6 ;
     border-radius: 15px;
 }
