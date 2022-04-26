@@ -40,10 +40,10 @@ body{
 }
 
 .p{
-    padding: 0 15em;
+    padding: 0 20em;
 }
 .top-space{
-    margin-top: 10em;
+    margin-top: 8em;
 }
 /* Hero styling */
 .hero-section{
@@ -65,6 +65,7 @@ ul {
 
 a{
     text-decoration: none;
+
   
 }
 .hero-text{
@@ -94,7 +95,7 @@ button{
 section{
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
 }
 
 /* Items */
@@ -116,6 +117,32 @@ section.p{
     width: 250px;
     border:  3px  solid #3882f6 ;
     border-radius: 15px;
+    background-size: 35em;
+    background-repeat: no-repeat;
+}
+
+.item-container.one{
+    background-image: url('../images/sec2-1.jpg');
+    background-position: center;
+}
+
+.item-container.two{
+    background-image: url('../images/sec2-2.jpg');
+    background-position: center;
+}
+
+.item-container.three{
+    background-image: url('../images/sec2-3.jpg');
+    background-position: center;
+}
+
+.item-container.four{
+    background-image: url('../images/sec2-4.jpg');
+    background-position: center;
+}
+.item-desc{
+    width: 250px;
+    color: black;
 }
 
 .items{
@@ -137,7 +164,7 @@ section.gray.p{
     background-color: #e5e7eb;
     padding: 0 22em;
     gap: 2em;
-    height: 60vh;
+    height: 40vh;
 }
 
 .quote-text{
@@ -149,7 +176,7 @@ section.gray.p{
 }
 
 section.gray p.info-header{
-    align-self: flex-end;
+    align-self: center;
 }
 
 /* CTA sec */
@@ -159,7 +186,7 @@ section.cta{
 .cta-sec{
     display: flex;
     height: 10em;
-    width: 90em;
+    width: 75em;
     color: white;
     background-color: #3882f6;
     justify-content: space-around;
